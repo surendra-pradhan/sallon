@@ -1,0 +1,77 @@
+name: sallon
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+  http: ^0.13.1  
+  carousel_slider: ^3.0.0
+  motion_tab_bar: ^0.1.5
+  font_awesome_flutter: ^9.0.0
+  shared_preferences: ^2.0.5
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.7.5+2
+  intl: ^0.17.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/mainbg.jpg
+    - assets/images/logo.png
+    - assets/images/bg1.jpg
+    - assets/images/bg2.jpg
+    - assets/images/bg3.jpg
+    - assets/images/hair.png
+    - assets/images/all.png
+    - assets/images/makeup.png
+    - assets/images/spa.png
+    - assets/images/facial.png
+    - assets/images/banner1.png
+    - assets/images/service1.jpg
+    - assets/images/service2.jpg
+    - assets/images/service3.jpg
+    - assets/images/service4.jpg
+    - assets/images/brand1.png
+    - assets/images/brand2.png
+    - assets/images/brand3.png
+    - assets/images/brand4.png
+    - assets/images/brand5.png
+    - assets/images/card1.png
+    - assets/images/card2.png
+    - assets/images/card3.png
+    - assets/images/pay1.png
+    - assets/images/pay2.png
+    - assets/images/pay3.png
+    # - images/a_dot_ham.jpeg
+
+ 
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
